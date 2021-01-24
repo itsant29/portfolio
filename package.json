@@ -1,0 +1,24 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://github.io/itsant29/single-page-portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Antoinette Hall",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.io/itsant29/single-page-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.io/itsant29/single-page-portfolio/issues"
+  },
+  "description": ""
+}
