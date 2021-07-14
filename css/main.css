@@ -112,10 +112,16 @@ main {
 .skill-main-grid {
     display: grid;
     align-self: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/*.skill-grid2 {
+    margin: 30px;
+}
+,skill-grid3 {
+    margin: 30px;
+}*/
 
 .skill-main-grid h2 {
     font-size: 1.5rem;
