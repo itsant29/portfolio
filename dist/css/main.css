@@ -10,10 +10,10 @@ body {
 
 }
 .portfolio-hero {
-    background: url(../img/abstract.jpg) no-repeat center center fixed;
+    background: url(../img/Download\ Abstract\ Organic\ Shape\ Hand\ Drawn\ Green\ Minimal\ Background\ for\ free.jpeg) no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
-    color: white; 
+    color: black; 
 }
 @media screen and (max-width: 830px) {
     .portfolio-menu a {
@@ -38,7 +38,7 @@ body {
     padding-top: 5px;
 }
 .portfolio-menu .menu-item a {
-    color: white;
+    color: black;
     text-decoration: double, overline;
     text-transform: uppercase;
     transition: .5s;
@@ -78,7 +78,8 @@ body {
 main {
     margin: 0;
     padding: 0;
-    background-color: rgb(208, 116, 5);
+    background-color: Green;
+    opacity: 70%;
 }
 #about{
     text-align: center;
@@ -112,22 +113,33 @@ main {
 .skill-main-grid {
     display: grid;
     align-self: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 3fr);
     grid-column-gap: 50px;
+    border-radius: 25px;
+    /*width: 10%*/
+    height: 10%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/*.skill-grid2 {
-    margin: 30px;
+.skill-grid2 {
+    border-radius: 25px;
+    padding: 5%;
+    border: thick;
 }
-,skill-grid3 {
-    margin: 30px;
-}*/
+.skill-grid3 {
+    padding: 5%;
+    
+}
 
 .skill-main-grid h2 {
     font-size: 1.5rem;
+    padding: 5%;
+}
+fieldset{
+    border: 
 }
 .portfolio-form {
     background-color: rgb(1, 68, 20);
+    opacity: 50%;
 }
 .form-row .form-label {
     text-align: center;
@@ -167,7 +179,7 @@ legend {
 }
 .form-input-textarea textarea:focus {
     transition: .7s;
-    border-color: #80bdff;
+    border-color: black;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0,123,25);
 }
@@ -178,12 +190,13 @@ legend {
 .btn-submit {
     height: 20px;
     padding: 0px 20px;
-    color: rgb(208, 116, 5);
+    color: black;
     background-color: transparent;
 }
 .footer {
     color: black;
     text-align: center;
     padding: 15px;
-    background:  rgb(208, 116, 5);
+    background:  green;
+    opacity: 70%;
 }
